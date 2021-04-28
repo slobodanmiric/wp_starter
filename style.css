@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Poppins&display=swap");
+:root {
+    --gray: #3A4454;  /*rgb(58, 68, 84)*/
+    --violet: #6B4E71; /* rgb(107, 78, 113)*/
+    --white: #fff;
+    --black: #000;
+    --lightgray: #b3b3b3;
+    --navBck:#dbc5cf; /*rgb(219, 197, 207)*/
+    --fontSize: 16px;
+    --transition: .5s;
+}
+/*************************
+Basic styles
+*************************/
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fontSize);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", serif;
+}
+
+.container{
+  width: 70%;
+}
+
+hr{
+  width: 30%;
+  border: none;
+  height: 4px;
+  background: var(--gray);
+}
+
+.button{
+  padding: 10px 20px;
+  background:var(--violet);
+  color:var(--white);
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.button:hover{
+  background:var(--black);
+  color:var(--violet);
+  transition:var(--transition);
+}
+
+/*************************
+nav
+*************************/
+nav{
+  background: rgba(219, 197, 207, 0.8);
+}
+
+.navbar-brand{
+  color: var(--violet)!important;
+}
+
+.active a{
+  color: var(--white)!important;
+  background: var(--violet);
+}
+
+.active a:hover{
+  color: var(--black)!important;
+}
+
+
+/*************************
+header
+*************************/
+header{
+  height: 100vh;
+  background: linear-gradient(rgba(107, 78, 113, .9), rgba(255,255,255, 0.9)) ,url(img/header-background.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+header img{
+  width: 80%;
+}
+
+header .headerHeight{
+  height: 100vh;
+}
+
+
+/*************************
+ourStory
+*************************/
+.ourStory img{
+  width: 100%;
+}
+
+/*************************
+latestNews
+*************************/
+.latestNews img{
+  width: 100%;
+}
+
+
+/*************************
+footer
+*************************/
+footer{
+  background: var(--navBck);
+}
+
+footer i{
+  font-size: 2rem;
+  color: var(--black);
+  margin-right: 10px;
+}
+
+footer i:hover{
+  transform: rotate(360deg);
+  transition: var(--transition);
+}
+
+
+/*************************
+blogHeader
+*************************/
+.blogHeader{
+  background: url(img/slide1.jpg);
+  height: 70vh;
+}
+
+/*************************
+blog
+*************************/
+.blog img{
+  width: 100%;
+}
+
+.blog .button{
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************
+RESPONSIVE
+*************************/
+@media(max-width: 768px){
+
+    
+
+
+}
